@@ -11,7 +11,7 @@ type TgUpdate = {
   }
 }
 
-export async function GET(req: Request) {
+export async function POST(req: Request) {
   const expectedSecret = process.env.TELEGRAM_WEBHOOK_SECRET
   const incomingSecret = req.headers.get('x-telegram-bot-api-secret-token')
 
