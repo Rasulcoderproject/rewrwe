@@ -106,7 +106,7 @@ export default function Home() {
         <header className="header">
           <div className="logo">
             <span className="logo-dot" />
-            <span>xuylo</span>
+            <span>велком ту май сайт</span>
           </div>
           <div className={`status ${online ? 'status-online' : 'status-offline'}`}>
             <span className="status-dot" />
