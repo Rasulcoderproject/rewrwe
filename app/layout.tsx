@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'чат c Расулом лично',
-  description: 'Анонимный чат без регистрации. История исчезает при закрытии вкладки.',
+  description: 'чат c Расулом лично без регистрации. История исчезает при закрытии вкладки.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
