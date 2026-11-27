@@ -2,7 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'anon.chat — анонимный чат',
+  title: 'чат c Расулом лично',
   description: 'Анонимный чат без регистрации. История исчезает при закрытии вкладки.',
 }
 
